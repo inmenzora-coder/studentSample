@@ -15,7 +15,7 @@ echo "Connected successfully";
 
 
 //or you can also do this:
-// $conn = mysqli_connect("localhost", "root", "", "mamburao_db");
+// $conn = mysqli_connect("localhost:3307", "root", "", "mamburao_db");
 
 // if (!$conn) {
 //     die("Connection failed: " . mysqli_connect_error());

@@ -10,7 +10,7 @@ $sql = "INSERT INTO users (username, email, password) VALUES (?, ?, ?)";
 $stmt = $conn->prepare($sql);
 $stmt->bind_param("sss", $username, $email, $password);
 if ($stmt->execute()) {
-echo "Registration successful! <a href='login.php'>Login here</a>";
+echo "Registration successful! <a href='index.php'>Login here</a>";
 } else {
 echo "Error: " . $stmt->error;
 }
